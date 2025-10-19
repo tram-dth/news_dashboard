@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WHAT'S HOT TODAY</h1>
+    <div id="user-input-prompt">Please select a country and a news category</div>
+
+    <label for="country-selector">Select an English-speaking country:</label>
+    <select id="country-selector" name="country">
+        <option value="" disabled selected>--Please choose an option--</option>
+        <option value="au">Australia</option>
+        <option value="ca">Canada</option>
+        <option value="nz">New Zealand</option>
+        <option value="us">United States</option>
+        <option value="gb">United Kingdom</option>       
+        <!-- Add more countries as needed -->
+    </select>
+
+    <br>
+
+    <label for = "category-selector"> Select a category of news</label>
+    <select id = "category-selector" name = "category">
+        <option value = "" disabled selected>--Please choose an option</option>
+        <option value = "general">General</option>
+        <option value = "business">Business</option>
+        <option value = "entertainment">Entertainment</option>
+        <option value = "health">Health</option>
+        <option value = "science">Science</option>
+        <option value = "sport">Sport</option>
+        <option value = "technology">Technology</option>
+    </select>
+
+    <br>
+    <button id = "go-button">
+        GO!
+    </button>
+
+
+    <script src="../static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+
+
+body {
+    background-color: rgb(243, 241, 237);
+}
+
+h1 {
+    color: rgb(5, 87, 139);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#user-input-prompt {
+    border: none;
+    background-color: transparent;
+    color: coral;
+    font-size: medium;
+}
